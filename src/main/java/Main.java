@@ -9,7 +9,7 @@ public class Main {
 
 
 
-        try (Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/db_treni", "root", "JAITA91")) {
+        try (Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/db_treni", "jaita91", "JAITA91")) {
 
             String query = """
                     SELECT *
